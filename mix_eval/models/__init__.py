@@ -9,6 +9,7 @@ AVAILABLE_MODELS = {
     "llama_3_8b_instruct": "Llama_3_8B_Instruct",
     "llama_3_70b": "Llama_3_70B",
     "llama_3_70b_instruct": "Llama_3_70B_Instruct",
+    "llama_31_8b_instruct": "Llama_31_8B_Instruct",
     "llama_32_1b_instruct": "Llama_32_1B_Instruct",
     "llama_32_3b_instruct": "Llama_32_3B_Instruct",
     
