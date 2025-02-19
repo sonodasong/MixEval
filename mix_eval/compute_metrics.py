@@ -364,10 +364,10 @@ def compute_metric_closeended_freeform_modelparse(args):
     score_dict = {}
     if args.models_to_eval is not None:
         models = args.models_to_eval
-        for model in models:
-            if not model in AVAILABLE_MODELS.keys():
-                print(f"Model {model} is not available in the registry.")
-        models = [model for model in models if model in AVAILABLE_MODELS.keys()]
+        # for model in models:
+        #     if not model in AVAILABLE_MODELS.keys():
+        #         print(f"Model {model} is not available in the registry.")
+        # models = [model for model in models if model in AVAILABLE_MODELS.keys()]
         
     else:
         if os.path.exists(args.model_response_dir):
@@ -544,10 +544,10 @@ def compute_metric_closeended_multichoice_modelparse(args):
     score_dict = {}
     if args.models_to_eval is not None:
         models = args.models_to_eval
-        for model in models:
-            if not model in AVAILABLE_MODELS.keys():
-                print(f"Model {model} is not available in the registry.")
-        models = [model for model in models if model in AVAILABLE_MODELS.keys()]
+        # for model in models:
+        #     if not model in AVAILABLE_MODELS.keys():
+        #         print(f"Model {model} is not available in the registry.")
+        # models = [model for model in models if model in AVAILABLE_MODELS.keys()]
         
     else:
         if os.path.exists(args.model_response_dir):
